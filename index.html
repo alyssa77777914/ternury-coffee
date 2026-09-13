@@ -60,31 +60,50 @@ justify-content: center;
 
 
 
+
+
+.encabezado {
+    width: 100%;
+    text-align: center;
+}
+
+.encabezado img {
+    display: block;
+    margin: 0 auto;
+}
+
+.encabezado h1 {
+    color: #613D18;
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: center;
+    margin: 10px auto;
+}
+
 @media (max-width: 600px) {
 
-    header {
+    .encabezado {
         width: 100%;
         text-align: center;
     }
 
-    header div {
-        width: 100%;
-        text-align: center;
-    }
-
-    header img {
+    .encabezado img {
         width: 100px;
-        display: block;
         margin: 0 auto;
     }
 
-    header h1 {
-        font-size: 35px !important;
+    .encabezado h1 {
+        font-size: 35px;
         text-align: center;
         margin: 10px auto;
     }
 
 }
+
+
+
+
+
 
         
     </style>
@@ -96,13 +115,13 @@ justify-content: center;
 
     <header>
 
-        <div style="text-align: center;">
+        <div class="encabezado">
 
             <img src="IMAGENES/ternu.jpeg" width="150">
 
-            <h1 style="color: #613D18; font-size: 50px; font-family: fantasy;">
-                TERNURY COFFEE
-            </h1>
+            <h1 >TERNURY COFFEE</h1>
+                
+        
 
         </div>
 
@@ -161,7 +180,7 @@ justify-content: center;
         <p>  Disfruta del equilibrio perfecto entre energía y frescura. Nuestro matcha ceremonial de la más alta calidad, batido con leche cremosa, hielo y coronado con una suave capa de crema batida con un toque de polvo de matcha. Una bebida súper refrescante, llena de antioxidantes y hecha con todo el amor de Ternuri Coffee.  </p>
         <p class="precio">Q42.00</p>
 
-        <img src=" IMAGENES/matcha.jpg " width="200px">
+        <img src="IMAGENES/matcha.jpg " width="200px">
 
 
     </div>
